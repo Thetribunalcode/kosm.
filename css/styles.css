@@ -1,0 +1,306 @@
+html
+{
+  scroll-behavior: smooth;
+}
+
+
+body
+{
+  font-family: "Ubuntu";
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-family: "Montserrat";
+}
+
+h3
+{
+
+  font-weight: 700;
+  font-size: 2rem;
+}
+p
+{
+  color: #b87ead;
+  margin-bottom: 6rem;
+}
+/* Headings */
+
+.big-heading
+{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #EDCBFE;
+}
+#title{
+  background-color: #1A1028;
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/* custom css button  */
+.bot{
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+  font-size:  1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  background-color :#DAEDFE;
+}
+.bot:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+.bot:hover{
+  background-color: #EDCBFE;
+}
+/* ------ */
+
+/* Navigation bar */
+.navbar-brand
+{
+  font-family: ninamman;
+  font-size: 4rem;
+  font-weight: lighter;
+  color: #EDCBFE;
+}
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+/* download buttons */
+
+.download-button
+{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image */
+
+.title-image{
+
+  width: 50rem;
+  height: 37.5rem;
+transform: rotate(15deg);
+position: absolute;
+left: 10%;
+}
+
+/* Features */
+#features
+{
+   background-color: #F9B5FE;
+   padding: 7% 15%;
+   position: relative;
+
+}
+.icon
+{
+  margin-top: 6rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #bb33ff;
+  font-size: 5rem;
+}
+.icon:hover{
+  color: #1A1028;
+}
+
+.wid
+{
+ padding: 9%;
+}
+
+/* Testimonials and press */
+#testimonials
+{
+
+  text-align: center;
+  background-color: #1A1028;
+  color:  #EDCBFE;
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.zerod
+{
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+#press
+{
+  background-color: #1A1028;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-logo
+{
+  width: 55%;
+  margin: 20px 50px 50px;
+}
+.carousel-item {
+    padding: 7% 15%;
+}
+.testimonial-image1
+{
+  width: 17.42%;
+  border-radius: 100%;
+  margin: 26px;
+}
+
+/* pricing */
+.pricing-head
+{
+
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+#pricing{
+  background-color: #EDCBFE;
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col
+{
+  background-color: #EDCBFE;
+}
+.price-title
+{
+  color: #1A1028;
+  margin-bottom: 2rem;
+}
+.card-header{
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0;
+  background-color:  #1A1028 ;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.boss
+{
+  color: white;
+}
+.paraf
+{
+  color: #93329e;
+  font-weight: 100;
+}
+
+/* cta */
+
+#cta
+{
+  background-color:  #1A1028;
+  text-align: center;
+  padding: 7% 15%;
+}
+.ymir
+{
+  font-weight: 900;
+  color:  #EDCBFE;
+  font-size: 3rem;
+}
+
+
+/* footer */
+#footer
+{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #DAEDFE;
+}
+.fab
+{
+margin: 20px 10px;
+}
+.cpy
+{
+  color: black;
+}
+
+@media (max-width: 1807px)
+{
+  #footer
+  {
+    font-size: 2rem;
+  }
+  .butn
+  {
+    font-size: 2rem;
+  }
+  .list-unstyled
+  {
+      font-size: 2rem;
+  }
+
+  .pricing-head , .ymir
+  {
+    font-size: 5rem;
+  }
+  .ed
+  {
+    font-size: 1.5rem;
+  }
+  .testimonial-image
+  {
+    height: 30%;
+    width: 34%;
+  }
+  .testimonial-image1
+  {
+    height: 30%;
+    width: 30%;
+  }
+
+  .press-logo
+  {
+    width: 30%;
+  }
+  .zerod, .vai1, .nav-link, .boss, .paraf
+  {
+    font-size: 3rem;
+  }
+  .vai
+  {
+    font-size: 4rem;
+  }
+
+  #title
+  {
+    text-align: center;
+  }
+  .title-image
+  {
+    width: 100%;
+    height: auto;
+    position: static;
+    transform: rotate(0);
+  }
+}
